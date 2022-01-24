@@ -14,22 +14,16 @@ git checkout trybe-skills-changes
 
 4.  In the file *skills.txt* , add two more skills that you will develope at Trybe at the end of the file content.
 
-    - Use *git add file-name.extension*;
+git add skills.txt
+```
+
+    - Use *git add skills.txt*;
     - You can add all files that was modified using git add . , but avoid do that with commit that has a lot of files so you don't add any changes by mistake;
     - Now a *git commit -m "message"*;
     - A good practice is to always resume what your commit is changing, like, *git commit -m "Add two new skills"*;
     - Avoid to make many changes in a single commit. Do that so you can detect easily where a error in the code was submited;
-    - And for last, *git push -u origin trybe-skills-changes*;
-    
-```sh
-cat >> skills.txt
-Bootstrep
-Flexbox
-
-git add skills.txt
-```
+    - And for last, *git push -u origin trybe-skills-changes*
      
-
 5.  Open a Pull Request with the following description:
 
     - Give context for what you are doing, leave links or specific citations that are relevants to understand the code.
