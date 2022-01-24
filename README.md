@@ -7,7 +7,7 @@ There are more than 1500 hours of training that covers fundamentals of web devel
 
 The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Express.js, SQL, Git, among others languages and frameworks.
 
-## **Fundamentals of Web Development :**hourglass_flowing_sand:
+## Fundamentals of Web Development : hourglass_flowing_sand:
 
 ##### Topic 1: Unix & Bash
 - [x] 1.3 - Fundamentals of Web Development

@@ -1,4 +1,4 @@
-#Part I - Creation of Files and Directories
+# Part I - Creation of Files and Directories
 
 **Tip** : To create empty files, you can use the command: *touch file_name.extension*.
 
@@ -37,16 +37,16 @@ SQL
 
 1.  In the *unix_test* directory, download a file with the names of all contries using the curl command:
 
-***
+```
 curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efcca01623b18d/raw/daa24c9fea66afb7d68f8d69f0c4b8eeb9406e83/countries"
-***
+```
 
 2.  Show all the content from the file *countries.txt* on the screen.
 3.  Show the content from *countries.txt*, page by page, until find *Zambia*.
 4.  Show again the content from *countries.txt*, page by page, but now use a command to search for *Zambia*.
 5.  Search for *Brazil* in *countries.txt*.
 6.  Search again for *Brazil*, but know using *lower case*.
-    ####**For the next exercises, create a new file named phrases.txt e add a phew phrases of your choice in it. You don't have to create the file in the terminal.**
+    #### **For the next exercises, create a new file named phrases.txt e add a phew phrases of your choice in it. You don't have to create the file in the terminal.**
 7.  Search for phrases that do not have the word *fox*.
 8.  Count the number of words in the file *phrases.txt*.
 9.  Count the number of lines in the file *phrases.txt*.

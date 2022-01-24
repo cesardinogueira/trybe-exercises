@@ -1,6 +1,6 @@
-#**Fundamentals of Web Development**
+# Fundamentals of Web Development
 
-##** Skills Developed in this Module: **
+## Skills Developed in this Module:
 
   - Bash and zsh (Shell)
   - Knowledge on how the Internet works, the main concepts and terminology
@@ -13,7 +13,7 @@
 
 In this module, I learned everything I need to know to start my carrer in Web Development. With this modules, I am prepared to face the other modules, such as Front-end and Back-end.
 
-##**The Module is divided into four parts:**
+## The Module is divided into four parts:
 
  - In the beginning, I learned about a famous operational system called UNIX.
  Pra começar, você vai estudar um pouco sobre um famoso tipo de sistema operacional chamado UNIX . Vamos colocar a mão na massa e executar alguns comandos no terminal.
