@@ -1,0 +1,8 @@
+ Você já deve ter se perguntado, por qual motivo fazemos uso da linha de comando se podemos resolver demandas em poucos cliques através da interface gráfica?
+De forma resumida, podemos dizer que ela é simples, estável, rápida, eficiente e exige baixíssimo poder de hardware. 
+Pode soar estranho dizer que ela é simples, não é? Mas sim, ela é. De modo geral, a linha de comando não fazia faz parte do seu dia a dia e por este motivo pode parecer complicado.
+No entanto, a partir de agora, você vai conhecer em detalhes diversas vantagens e praticidades desta poderosa ferramenta, que te ajudará a ser uma pessoa mais produtiva e mais eficiente na sua formação como pessoa desenvolvedora.
+Lembre-se: utilizar a linha de comando não te impede de também utilizar a interface gráfica.
+Com o tempo e a prática, você encontrará a forma de trabalho que te proporciona a melhor experiência.
+Para que você possa começar a ter mais familiaridade e entendimento, assista ao vídeo abaixo.
+Nele vamos entender o que é o Unix, Kernel e Shell. Além de compreender como é a estrutura dos arquivos e o que é um processo. 
