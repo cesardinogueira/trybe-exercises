@@ -1,0 +1,235 @@
+
+
+
+
+
+
+
+
+
+Afghanistan
+Albania
+# a letra "F" e que nosso resultado esteja em ordem alfabética
+Algeria
+Amanda
+Amanda
+Ana
+Andorra
+Angola
+Antigua & Deps
+Argentina
+Armenia
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bhutan
+Bolivia
+Bosnia Herzegovina
+Botswana
+Brazil
+Brunei
+Bulgaria
+Burkina
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+# caso haja algum conteúdo no arquivo, ele será substituído
+cat > nomes.txt
+cat >> nomes.txt
+cat nomes.txt
+cat nomes.txt
+Central African Rep
+Chad
+Chile
+China
+Colombia
+Comoros
+Congo
+Congo {Democratic Rep}
+ Considere o arquivo nomes.txt para os exemplos a seguir
+# Considere que queremos uma lista com todos os nomes que contenham
+Costa Rica
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+# dessa forma conseguimos realizar comandos de forma sucessiva
+# Digite o nome "Amanda" e encerre o cat (Ctrl + D)
+# Digite o nome "Fernanda", depois `enter` e o nome "Fabiano", e encerre o cat (Ctrl + D)
+Djibouti
+Dominica
+Dominican Republic
+East Timor
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Fabiano
+Fabiano
+Fernanda
+Fernanda
+Fiji
+Finland
+France
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Greece
+Grenada
+grep F nomes.txt | sort
+Guatemala
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Honduras
+Hungary
+Iceland
+India
+Indonesia
+Iran
+Iraq
+Ireland {Republic}
+Israel
+Italy
+Ivory Coast
+Jamaica
+Japan
+João
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea North
+Korea South
+Kosovo
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libya
+Liechtenstein
+Lithuania
+Luxembourg
+Macedonia
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Maria
+Marshall Islands
+Mauritania
+Mauritius
+Mexico
+Micronesia
+Moldova
+Monaco
+Mongolia
+Montenegro
+Morocco
+Mozambique
+Myanmar, {Burma}
+Namibia
+Nauru
+Nepal
+Netherlands
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Norway
+# O >> anexa a saída padrão a um arquivo. Sendo assim, ele adiciona
+# O | canaliza a saída do primeiro comando para a entrada do segundo,
+Oman
+# o que for digitado ao final do arquivo em questão
+# O > redireciona a saída padrão para um arquivo, sendo assim
+Pakistan
+Palau
+Panama
+Papua New Guinea
+Paraguay
+# Para isso podemos realizar o comando abaixo
+Peru
+Philippines
+Poland
+Portugal
+Qatar
+# Resultado
+# Resultado
+# Resultado
+Romania
+Russian Federation
+Rwanda
+Saint Vincent & the Grenadines
+Samoa
+San Marino
+Sao Tome & Principe
+Saudi Arabia
+Senegal
+Serbia
+# Seu conteúdo inicial é:
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Sudan
+Spain
+Sri Lanka
+St Kitts & Nevis
+St Lucia
+Sudan
+Suriname
+Swaziland
+Sweden
+Switzerland
+Syria
+Taiwan
+Tajikistan
+Tanzania
+Thailand
+Togo
+Tonga
+Trinidad & Tobago
+Tunisia
+Turkey
+Turkmenistan
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States
+Uruguay
+Uzbekistan
+Vanuatu
+Vatican City
+Venezuela
+Vietnam
+Yemen
+Zambia
+Zimbabwe

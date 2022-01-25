@@ -3,40 +3,20 @@
 1.  Navigate to the directory of your project with the skill.txt file.
 
 2.  Verify if there is something to commit using the command: *git status*.
+
     - (If there is something, do the *commit* or remove it).
-    
 3.  Create a new *branch* with the name *trybe-skills-changes* and make a checkout to it.
 
-```sh
-git branch trybe-skills-changes
-git checkout trybe-skills-changes
-```
+4.  In the file *skill.txt* , add two more skills that you will develope at Trybe at the end of the file content.
 
-4.  In the file *skills.txt* , add two more skills that you will develope at Trybe at the end of the file content.
-
-<<<<<<< HEAD
-```sh
-cat >> skills.txt
-Bootstrep
-Flexbox
-
-=======
->>>>>>> b6dea26c314247c1dc4a25600e7f113755d665dd
-git add skills.txt
-```
-
-    - Use *git add skills.txt*;
+    - Use *git add skill.txt*;
     - You can add all files that was modified using git add . , but avoid do that with commit that has a lot of files so you don't add any changes by mistake;
     - Now a *git commit -m "message"*;
     - A good practice is to always resume what your commit is changing, like, *git commit -m "Add two new skills"*;
     - Avoid to make many changes in a single commit. Do that so you can detect easily where a error in the code was submited;
-<<<<<<< HEAD
     - And for last, *git push -u origin trybe-skills-changes*;
-
-=======
-    - And for last, *git push -u origin trybe-skills-changes*
      
->>>>>>> b6dea26c314247c1dc4a25600e7f113755d665dd
+
 5.  Open a Pull Request with the following description:
 
     - Give context for what you are doing, leave links or specific citations that are relevants to understand the code.
@@ -49,19 +29,10 @@ git add skills.txt
 
 8.  Create a new *branch trybe-skills-updates* from the *master* and check out in it;
 
-```sh
-git checkout trybe-skills-updates
-```
-
 9.  In the same skills.txt that you modified in the exercise 4, add one more skill to the end of the content of the file;
 
-```sh
-cat >> skills.txt
-Flexbox
-```
-
     - Atention! Here the file will not have the changes done previously in the other branch 😉;
-    - Do a *git add skills.txt*;
+    - Do a *git add skill.txt*;
     - Now a *git commit -m "message"* ;
     - And for last a *git push -u origin trybe-skills-updates*;
     - After the first "push" of your branch, you can use comando *git push* without specify;
