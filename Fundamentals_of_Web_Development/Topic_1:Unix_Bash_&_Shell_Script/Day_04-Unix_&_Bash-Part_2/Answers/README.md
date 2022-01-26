@@ -1,4 +1,4 @@
-#Parte I - Input and Output Command
+# Parte I - Input and Output Command
 
 1.  Navigate into the *unix_tests* directory;
 
@@ -75,7 +75,7 @@ sort -o bunch_of_things.txt bunch_of_things.txt
 
 
 
-#Part II - Permissions
+# Part II - Permissions
 
 1.  Navigate into the *unix_tests directory*;
 
@@ -104,7 +104,7 @@ chmod a-w bunch_of_things.txt
 
 >Resultado esperado: -rw-r--r-- 1 ana ana 1860 ago 13 11:39 bunch_of_things.txt
 
-#Part III - Processes & Jobs
+# Part III - Processes & Jobs
 
 1.  List all processes;
 
