@@ -7,6 +7,22 @@
             font-family: 'Courier New', Courier, monospace;
         }
 
+        .primeiro-item{
+            font-size: 1em;
+        }
+
+        .segundo-item{
+            font-size: 15px;
+        }
+
+        .terceiro-item{
+            font-size: 20px;
+        }
+
+        .quarto-item{
+            font-size: 25px;
+        }
+
         #descricao{
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
