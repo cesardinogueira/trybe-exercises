@@ -1,0 +1,50 @@
+
+        body{
+            background-color: rgb(232, 252, 194);
+        }
+
+        h1{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        #minha-foto{
+            float: left;
+            height: 180px;
+            padding: 10px;
+            background-color: #464655;
+        }
+
+        .image-container{
+            height: 200px;
+            position: absolute;
+        }
+
+        #descricao{
+            position: absolute;
+            top: 10%;
+            left: 20%;
+        }
+      
+
+        #descricao-paragrafo{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #skills{
+            position: absolute;
+            top: 40%;
+        }
+
+        #skills-items li:hover{
+            font-size: 20px;
+        }
+
+        #skills-items:nth-last-child(even){
+            background-color: #3993dd;
+        }
+
+        #blog{
+            position: absolute;
+            top: 500px;
+        }
