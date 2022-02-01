@@ -1,0 +1,73 @@
+.navigation-items li{
+    display: inline-block;
+    width: 200px;
+    color: blue;
+}
+
+#mantis-shrimp-article{
+    width: 900px;
+    display: inline-block;
+}
+
+#main-article-text{
+    display: inline-block;
+    width: 600px;
+}
+
+#main-article-side-information{
+    vertical-align: top;
+    text-align: center;
+    margin-top: 17px;
+    display: inline-block;
+    width: 280px;
+}
+
+#main-article-table{
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+.curious-facts-item{
+    position: relative;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    width: 270px;
+    height: 450px;
+    margin: 10px;
+}
+
+
+.curious-facts-item img{
+    position: absolute;
+    width: 250px;
+    height: 280px;
+    left: 10px;
+    bottom: 0;
+}
+
+#reference-list p{
+    font-size: 12px;
+}
+
+#aside-article-links{
+    position: absolute;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+}
+
+#aside-article-links section{
+    position: relative;
+    margin: 4px;
+    border: 1px solid black;
+    top: 118px;
+}
+
+footer p{
+    font-size: 10px;
+}
