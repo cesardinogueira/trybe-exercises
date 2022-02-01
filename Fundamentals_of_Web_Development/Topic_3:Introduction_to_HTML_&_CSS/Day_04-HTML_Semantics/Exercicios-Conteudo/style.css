@@ -1,0 +1,11 @@
+.sessoes{
+    text-align: center;
+}
+
+.premiacoes li{
+    display: inline-block;
+}
+
+.primeiro-andar{
+    display: inline-block;
+}
