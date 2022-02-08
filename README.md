@@ -30,8 +30,8 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 
 ##### Topic 4: Introduction to JavaScript & Programming Logic
 - [x] 4.1 - Introduction - JavaScript
-- [ ] 4.1 - JavaScript - First Steps
-- [ ] 4.2 - JavaScript - Array & Loop For
+- [x] 4.1 - JavaScript - First Steps
+- [x] 4.2 - JavaScript - Array & Loop For
 - [ ] 4.3 - JavaScript - Programming Logic & Algorithms
 - [ ] 4.4 - JavaScript - Objects & Functions
 - [ ] 4.5 - Project - Playground Functions
