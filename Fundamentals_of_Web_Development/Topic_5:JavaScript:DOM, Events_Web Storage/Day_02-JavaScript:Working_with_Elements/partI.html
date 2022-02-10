@@ -28,6 +28,16 @@
           console.log(ex1.parentNode.firstChild.nextSibling.nextSibling.nextSibling.nextSibling);//Ex 6
           console.log(ex1.parentElement.firstElementChild.nextElementSibling.nextElementSibling);//EX 7
           console.log(document.querySelector('#pai').firstElementChild.nextElementSibling.nextElementSibling);//Ex 8
+          let brother = document.createElement('section');
+          brother.id = 'irmaoOndeVoceEsta';
+          document.querySelector('#pai').appendChild(brother);//Ex 9
+          let son = document.createElement('div');
+          son.id = 'filhoOndeVoceEsta';
+          ex1.appendChild(son);//Ex 10
+          let anotherSon = document.createElement('div');
+          anotherSon.id = 'filhoDoPrimeiroFilho';
+          document.querySelector('#primeiroFilhoDoFilho').appendChild(anotherSon);//Ex 11
+          console.log(document.querySelector('#filhoDoPrimeiroFilho').parentElement.parentElement.nextElementSibling);//Ex 12
       </script>
 </body>
 </html>
