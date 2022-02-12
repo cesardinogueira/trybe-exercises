@@ -13,7 +13,6 @@ const myWebpage = document.getElementById('my-spotrybefy');
 // 2.1. Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
 
 let itensLista = document.querySelectorAll('.container li');
-console.log(itensLista);
 for (let i = 0; i < itensLista.length; i++) {
     itensLista[i].addEventListener('click', atribuirTechLi);
 
@@ -62,12 +61,14 @@ function portifolioRedirect(){
 myWebpage.addEventListener('mouseover', spotrybefyBackgroundChange);
 
 function spotrybefyBackgroundChange(event){
+    event.target.style.display = 'inline-block';
     event.target.style.background = '#63E2C6';
 }
 
 myWebpage.addEventListener('mouseleave', spotrybefyBackgroundRemove);
 
 function spotrybefyBackgroundRemove(event){
+    event.target.style.display = 'block';
     event.target.style.background = 'transparent';
 }
 
