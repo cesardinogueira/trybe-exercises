@@ -32,13 +32,13 @@ The main technical stacks studied are JavaScript, HTML, CSS, React, Node, Expres
 - [x] 4.1 - Introduction - JavaScript
 - [x] 4.1 - JavaScript - First Steps
 - [x] 4.2 - JavaScript - Array & Loop For
-- [ ] 4.3 - JavaScript - Programming Logic & Algorithms
-- [ ] 4.4 - JavaScript - Objects & Functions
-- [ ] 4.5 - Project - Playground Functions
+- [x] 4.3 - JavaScript - Programming Logic & Algorithms
+- [x] 4.4 - JavaScript - Objects & Functions
+- [x] 4.5 - Project - Playground Functions
 
 ##### Topic 5: JavaScript: DOM, Events & Web Storage
-- [ ] 5.1 - JavaScript - DOM e Selectors
-- [ ] 5.2 - JavaScript - Working With Elements
+- [x] 5.1 - JavaScript - DOM e Selectors
+- [x] 5.2 - JavaScript - Working With Elements
 - [ ] 5.3 - JavaScript - Events
 - [ ] 5.4 - JavaScript - Web Storage
 - [ ] 5.5 - Fundamentals - JavaScript - Projects
