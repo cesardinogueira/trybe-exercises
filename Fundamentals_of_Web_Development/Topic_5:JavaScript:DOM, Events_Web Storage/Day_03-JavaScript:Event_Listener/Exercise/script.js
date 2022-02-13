@@ -27,6 +27,9 @@ for (let i = 0; i < dezDaysList.length; i++) {
     let dayElement = document.createElement('li');
     dayElement.innerText = dezDaysList[i];
     dayElement.classList.add('day');
+    dayElement.addEventListener('mouseover', zoomInDia); //Ex 6
+    dayElement.addEventListener('mouseleave', zoomOutDia); //Ex 6
+    dayElement.addEventListener('click', dayTask); //Ex 10
     if (dezDaysList[i] === 24 || dezDaysList[i] === 25 || dezDaysList[i] === 31) {
         dayElement.classList.add('holiday');
     }
@@ -97,11 +100,95 @@ function sextas() {
         }
     } else { //Resetando Dias
         for (let i = 0; i < sextas.length; i++) {
-            if(sextas[i].nextElementSibling.innerText != null){ //Verifico se o sibling é null
+            if (sextas[i].nextElementSibling.innerText != null) { //Verifico se o sibling é null
                 sextas[i].innerText = parseInt(sextas[i].nextElementSibling.innerText) - parseInt(1); //Necessário percorrer siblings para setar o valor, pois, após a modificação para 'SEXTA-FEIRA', não há variáveis com os valores prévios.
             } else {
                 sextas[i].innerText = parseInt(sextas[i].previousElementSibling.innerText) + parseInt(1);
             }
+        }
+    }
+}
+
+//Ex 6
+function zoomInDia(event) { //Eventlistener setado no Ex 1
+    event.target.style.fontSize = '30px';
+}
+
+function zoomOutDia(event) {
+    event.target.style.fontSize = '20px';
+}
+
+//Ex 7
+
+let myTasks = document.getElementsByClassName('my-tasks');
+addTasks('cozinhar');
+
+function addTasks(string) {
+    let task = document.createElement('span');
+    task.innerText = string;
+    myTasks[myTasks.length - 1].appendChild(task);
+}
+
+//Ex 8
+
+addTasksColor('green');
+
+function addTasksColor(string) {
+    let taskColor = document.createElement('div');
+    taskColor.classList.add('task');
+    taskColor.style.backgroundColor = string;
+    taskColor.addEventListener('click', selectColor);//Ex 9
+    myTasks[myTasks.length - 1].appendChild(taskColor);
+}
+
+//Ex 9
+function selectColor(event) {
+    console.log(event.target.classList);
+    if (event.target.classList.value === 'task') {
+        event.target.classList.add('selected')
+    } else {
+        event.target.classList.remove('selected');
+    }
+}
+
+//Ex 10
+
+function dayTask(event) {
+    if (document.getElementsByClassName('selected').length > 0) { //Verificando se há elemento com classe selected
+        let colorTask = document.getElementsByClassName('selected')
+        event.target.style.color = colorTask[colorTask.length - 1].style.backgroundColor;
+    } else {
+        event.target.style.color = 'rgb(119,119,119)'
+    }
+}
+
+//Bonus
+
+document.getElementById('btn-add').addEventListener('click', compromissoBotao);
+document.getElementById('task-input').addEventListener('keypress', compromissoEnter);
+
+function compromissoBotao() {
+    if (document.getElementById('task-input').value != '') {
+        let taskList = document.getElementsByClassName('task-list');
+        let taskItem = document.createElement('li');
+        taskItem.innerText = document.getElementById('task-input').value;
+        taskList[0].appendChild(taskItem);
+        document.getElementById('task-input').value = '';
+    } else {
+        alert('Você não digitou uma tarefa!')
+    }
+}
+
+function compromissoEnter(event) {
+    if (event.key === 'Enter') {
+        if (document.getElementById('task-input').value != '') {
+            let taskList = document.getElementsByClassName('task-list');
+            let taskItem = document.createElement('li');
+            taskItem.innerText = document.getElementById('task-input').value;
+            taskList[0].appendChild(taskItem);
+            document.getElementById('task-input').value = '';
+        } else {
+            alert('Você não digitou uma tarefa!')
         }
     }
 }
