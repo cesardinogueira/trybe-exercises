@@ -1,0 +1,28 @@
+* {
+    background-color: #E8FCC2;
+}
+
+.line-content {
+    margin: 5px;
+}
+
+.line-content input{
+    line-height: 1.2px;
+    font-size: 12px;
+    border: 1px solid gray;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+.line-content input[type="date"]{
+    margin-bottom: 5px;
+}
+
+.line-content input[type="checkbox"]{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#data-viagem {
+    margin-bottom: 3px;
+}
