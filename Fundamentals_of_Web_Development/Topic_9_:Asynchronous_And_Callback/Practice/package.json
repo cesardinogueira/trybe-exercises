@@ -1,0 +1,15 @@
+{
+  "name": "Practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "async.test.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
